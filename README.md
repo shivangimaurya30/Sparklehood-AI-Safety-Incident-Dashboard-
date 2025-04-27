@@ -14,9 +14,9 @@ The dashboard allows users to view, filter, sort, and log hypothetical AI safety
 ## 🛠 Tech Stack
 
 - **Framework:** React.js (JavaScript)
-- **Languages:** HTML5, CSS3, JavaScript (ES6+)
+- **Languages:** HTML5, CSS3, JavaScript 
 - **Styling:** Custom CSS (Flexbox + Grid)
-- **Version Control:** Git & GitHub
+
 
 ---
 
