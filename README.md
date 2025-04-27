@@ -1,4 +1,4 @@
-# :robot: :shield: AI Safety Incident Dashboard
+# :robot: AI Safety Incident Dashboard :shield:
 
 ## 🚀 Project Overview
 
