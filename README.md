@@ -1,5 +1,7 @@
 # :robot: AI Safety Incident Dashboard :shield:
 
+
+
 ## 🚀 Project Overview
 
 This project is a **Frontend Intern Take-Home Assignment** for **HumanChain**.  
