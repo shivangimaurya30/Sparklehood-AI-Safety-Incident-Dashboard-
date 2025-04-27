@@ -1,0 +1,58 @@
+/* Severity Options Styling */
+.severity-options {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .severity-option {
+    display: flex;
+    align-items: center;
+  }
+  
+  .severity-radio {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .radio-circle {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 50%;
+    margin-right: 8px;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .severity-radio:checked + .severity-label .radio-circle {
+    background-color: currentColor;
+  }
+  
+  .severity-radio:checked + .severity-label .radio-circle::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Color Coding */
+  .severity-label.low {
+    color: #77dd77; /* Green for Low */
+  }
+  .severity-label.medium {
+    color: #ffb347; /* Yellow/Orange for Medium */
+  }
+  .severity-label.high {
+    color: #ff6961; /* Red for High */
+  }
+  
+  .severity-option:hover .severity-label {
+    transform: scale(1.05);
+  }

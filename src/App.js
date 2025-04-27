@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { FaRobot, FaShieldAlt } from 'react-icons/fa';
+import IncidentDashboard from './components/IncidentDashboard';
+import './styles/main.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="app">
+      {/* Header with React Icons */}
+      <header className="app-header">
+        <h1>
+          <FaRobot className="header-icon" />
+          AI Safety Incident Tracker
+          <FaShieldAlt className="header-icon" />
+        </h1>
+        <p className="subtitle">Monitoring and reporting AI safety concerns</p>
       </header>
+      
+      <main className="app-content">
+        <IncidentDashboard />
+      </main>
+      
+      <footer className="app-footer">
+        <p>HumanChain AI Safety Initiative</p>
+      </footer>
     </div>
   );
 }
