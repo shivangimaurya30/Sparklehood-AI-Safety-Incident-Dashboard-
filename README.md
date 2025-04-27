@@ -1,23 +1,38 @@
-# 🌟 Sparklehood AI Safety Incident Dashboard
+# :robot: :shield: AI Safety Incident Dashboard
 
-Welcome to the **AI Safety Incident Dashboard**!  
-A clean and responsive dashboard to **add**, **view**, and **manage** AI safety incidents, built using **React.js**. 🚀
+## 🚀 Project Overview
+
+This project is a **Frontend Intern Take-Home Assignment** for **HumanChain**.  
+It demonstrates fundamental frontend development skills, including UI creation, state management, and user interaction.  
+The dashboard allows users to view, filter, sort, and log hypothetical AI safety incidents.
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework:** React.js (JavaScript)
+- **Languages:** HTML5, CSS3, JavaScript (ES6+)
+- **Styling:** Custom CSS (Flexbox + Grid)
+- **Version Control:** Git & GitHub
 
 ---
 
 ## ✨ Features
 
-- ➕ Add New Incidents
-- 📋 View Incident List
-- 🔍 Filter & Sort Incidents
-- 💻 Responsive, Clean & Modern UI
+- List of AI Safety Incidents displaying Title, Severity, and Reported Date.
+- Filter incidents based on Severity ("All", "Low", "Medium", "High").
+- Sort incidents by Reported Date (Newest First, Oldest First).
+- "View Details" button to toggle full Description visibility.
+- "Report New Incident" form to add new incidents dynamically.
+- Basic input validation (non-empty fields).
+- Responsive layout with clean UI and hover effects.
+- Mock data handled locally in the application state (no backend/API).
 
 ---
 
-## 🚀 Getting Started
+## 📂 How to Setup Locally
 
-Follow these steps to set up and run this project locally:
+1. **Clone the Repository**
 
-### 1. Clone the Repository
 ```bash
 git clone https://github.com/shivangimaurya30/Sparklehood-AI-Safety-Incident-Dashboard-.git
